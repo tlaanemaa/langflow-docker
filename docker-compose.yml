@@ -7,4 +7,5 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5003:5003"
+    restart: unless-stopped
     command: langflow --host 0.0.0.0
