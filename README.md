@@ -4,12 +4,12 @@ Simple Docker wrapper for [LangFlow](https://github.com/logspace-ai/langflow).
 
 This is basically just a copy-paste of the [docker example in their repo](https://github.com/logspace-ai/langflow/tree/dev/docker_example), so that you don't need to clone the whole repo.
 
-There is also a [hosted version on the UI](https://logspace-langflow.hf.space/)
+There is also a [hosted version of the UI](https://logspace-langflow.hf.space/)
 
 ## Running
 
 ```sh
-docker compose up --build
+docker compose up
 ```
 
-The web UI will be accessible on some port (still figuring out which)
+The web UI will be accessible on port [7860](http://localhost:7860/)
