@@ -1,5 +1,8 @@
 name: Build and push images to GHCR
 
+permissions:
+  packages: read|write
+
 on:
   push:
     branches:
