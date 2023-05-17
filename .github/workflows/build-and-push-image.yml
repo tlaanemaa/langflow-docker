@@ -27,7 +27,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Build Docker Image"
-        run: docker build . --tag ghcr.io/${{ github.event.repository.name }}:latest
+        run: docker build . --tag ghcr.io/tlaanemaa/${{ github.event.repository.name }}:latest
 
       - name: "Push Docker Image"
-        run: docker push ghcr.io/${{ github.event.repository.name }}:latest
+        run: docker push ghcr.io/tlaanemaa/${{ github.event.repository.name }}:latest
